@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(146, 140, 140);
+    padding: 0 10px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    width: 496px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    background-color: lightskyblue;
+    margin-bottom: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(83, 74, 74);
+}
+
+.pForm {
+    font-size: 20px;
+    color: rgb(70, 65, 65);
+    align-self: flex-start;
+    padding-left: 15px;
+    margin-bottom: 5px;
+}
+
+.buttonIn {
+    width: 450px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: lightskyblue;
+    border: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type='text'],
+input[type='email'],
+select {
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+input[type='text']:focus, input[type='email']:focus, select:focus{
+outline: none;
+border: 3px solid lavender;
+}
+input[type='checkbox'],
+input[type='radio'],
+label {
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+.passage {
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+.profile{
+    width: 500px;
+    margin: 40px auto;
+    border: 2px solid rgb(146, 140, 140);
+    padding: 20px 10px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: top;
+
+}
+.name, .email, .position{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(70, 65, 65);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+}
+.buttonOut{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid lightskyblue;
+    background-color: white;
+    margin:20px 0;
+}
+.line{
+    width: 498px;
+    height: 50px;
+    background-color: lightskyblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

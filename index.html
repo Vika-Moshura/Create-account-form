@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form name="f1">
+        <h1>Create your account</h1>
+        <p class="pForm">First name</p>
+        <input type="text" name="name" placeholder="type here...">
+        <p class="pForm">Second name</p>
+        <input type="text" name="surname" placeholder="type here...">
+        <p class="pForm">Email address</p>
+        <input type="email" name="email" placeholder="enter email">
+        <p class="pForm">Your gender</p>
+        <div class="passage">
+            <input type="radio" value="man" name="gender" checked> man
+            <input type="radio" name="gender" value="woman"> woman</div>
+        <p class="pForm">Position</p>
+        <select name="position">
+            <option value="Choose" selected>Choose...</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="QC/QA">QC/QA</option>
+        </select>
+        <div class="passage">
+            <input type="checkbox" name="agree" id="agree">
+            <label for="agree">I agree with all statements in Terms of service</label>
+        </div>
+        <button class="buttonIn" onclick="signIn()" type="button" name="button">
+            <h2>Sign up</h2>
+        </button>
+    </form>
+    <div class="profile">
+        <div class="image"></div>
+        <p class="name"></p>
+        <p class="email"></p>
+        <p class="position"></p>
+        <button class="buttonOut" onclick="signOut()" type="button">
+            <h2>Sign out</h2>
+        </button>
+        <div class="line"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
